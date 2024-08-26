@@ -1,5 +1,7 @@
 import { useCallback, useReducer } from "react";
-import { DomainTuple } from "victory";
+
+
+type DomainTuple= [number, number] | [Date, Date];
 
 type Domain = {
   x?: DomainTuple | undefined;
